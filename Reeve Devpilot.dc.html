@@ -61,7 +61,10 @@ nav[data-desk] a{white-space:nowrap}
         <svg width="15" height="15" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.4 7.4 0 0 1 2-.27c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
         GitHub
       </a>
-      <a href="{{ getUrl }}" target="_blank" rel="noopener" style="font-size:13.5px;font-weight:500;color:#12100E;background:#E4692A;padding:8px 15px;border-radius:7px;border:1px solid #F0854B" style-hover="background:#F0854B;color:#12100E">Get Reeve</a>
+      <a href="https://reeve-devpilot-downloads-309490998255.s3.us-west-2.amazonaws.com/Reeve-Devpilot-Setup.exe" download style="display:flex;align-items:center;gap:7px;font-size:13.5px;font-weight:600;color:#12100E;background:#E4692A;padding:8px 15px;border-radius:7px;border:1px solid #F0854B;transition:background .2s ease" style-hover="background:#F0854B;color:#12100E">
+        <svg width="13" height="13" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M0 2.222L6.5 1.333V7.5H0V2.222zm7.5-1.472L16 0v7.5H7.5V.75zM0 8.5h6.5v6.167L0 13.778V8.5zm7.5 0H16V16l-8.5-.75V8.5z"/></svg>
+        Download (.exe)
+      </a>
     </div>
     <button data-mob onClick="{{ toggleMenu }}" aria-label="Menu" style="display:none;align-items:center;justify-content:center;width:38px;height:38px;background:transparent;border:1px solid #2A231E;border-radius:8px;color:#EFE9E3;cursor:pointer;margin-left:auto">
       <span style="display:block;width:16px;height:10px;border-top:1.5px solid currentColor;border-bottom:1.5px solid currentColor"></span>
@@ -75,7 +78,10 @@ nav[data-desk] a{white-space:nowrap}
     <a href="#timeline" onClick="{{ closeMenu }}" style="font-size:16px;color:#EFE9E3;padding:11px 0;border-bottom:1px solid #1C1714">Timeline</a>
     <a href="#how" onClick="{{ closeMenu }}" style="font-size:16px;color:#EFE9E3;padding:11px 0;border-bottom:1px solid #1C1714">How it works</a>
     <a href="https://github.com/Ampplex/Reeve-Copilot" target="_blank" rel="noopener" onClick="{{ closeMenu }}" style="font-size:16px;color:#EFE9E3;padding:11px 0;border-bottom:1px solid #1C1714">GitHub</a>
-    <a href="{{ getUrl }}" target="_blank" rel="noopener" onClick="{{ closeMenu }}" style="margin-top:14px;text-align:center;font-size:15px;font-weight:500;color:#12100E;background:#E4692A;padding:12px 16px;border-radius:8px">Get Reeve</a>
+    <a href="https://reeve-devpilot-downloads-309490998255.s3.us-west-2.amazonaws.com/Reeve-Devpilot-Setup.exe" download onClick="{{ closeMenu }}" style="margin-top:14px;display:flex;align-items:center;justify-content:center;gap:8px;text-align:center;font-size:15px;font-weight:600;color:#12100E;background:#E4692A;padding:12px 16px;border-radius:8px">
+      <svg width="15" height="15" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M0 2.222L6.5 1.333V7.5H0V2.222zm7.5-1.472L16 0v7.5H7.5V.75zM0 8.5h6.5v6.167L0 13.778V8.5zm7.5 0H16V16l-8.5-.75V8.5z"/></svg>
+      Download for Windows (.exe)
+    </a>
   </div>
 </header>
 
@@ -88,15 +94,20 @@ nav[data-desk] a{white-space:nowrap}
       <p data-reveal style="margin:0;font-family:'IBM Plex Mono',monospace;font-size:11.5px;letter-spacing:.16em;color:#B4805F">THE MEMORY + TRUST LAYER FOR AI CODING</p>
       <h1 data-reveal style="margin:26px 0 0;font-size:clamp(38px,6.2vw,72px);line-height:1.02;letter-spacing:-.035em;font-weight:600;text-wrap:balance">AI Coding Without<br>Context Rot.</h1>
       <p data-reveal style="margin:24px 0 0;font-size:clamp(16px,1.5vw,19px);line-height:1.6;color:#A0958C;max-width:620px;text-wrap:pretty">Reeve gives coding agents persistent project memory, explains what they do using real evidence, and helps developers understand the systems they build.</p>
-      <div data-reveal style="display:flex;flex-wrap:wrap;gap:12px;margin-top:32px">
-        <a href="#product" style="display:inline-flex;align-items:center;gap:9px;font-size:15px;font-weight:500;color:#12100E;background:#E4692A;padding:13px 22px;border-radius:9px;border:1px solid #F0854B" style-hover="background:#F0854B">Explore Reeve
+      <div data-reveal style="display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-top:32px">
+        <a href="https://reeve-devpilot-downloads-309490998255.s3.us-west-2.amazonaws.com/Reeve-Devpilot-Setup.exe" download style="display:inline-flex;align-items:center;gap:10px;font-size:15px;font-weight:600;color:#12100E;background:#E4692A;padding:14px 24px;border-radius:9px;border:1px solid #F0854B;box-shadow:0 4px 20px rgba(228,105,42,.32);transition:background .15s ease,transform .15s ease" style-hover="background:#F0854B;transform:translateY(-1px)">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M0 2.222L6.5 1.333V7.5H0V2.222zm7.5-1.472L16 0v7.5H7.5V.75zM0 8.5h6.5v6.167L0 13.778V8.5zm7.5 0H16V16l-8.5-.75V8.5z"/></svg>
+          <span>Download for Windows <span style="font-size:12.5px;opacity:.88;font-weight:500">(.exe)</span></span>
+        </a>
+        <a href="#product" style="display:inline-flex;align-items:center;gap:8px;font-size:15px;font-weight:500;color:#EFE9E3;background:#171310;padding:14px 20px;border-radius:9px;border:1px solid #2F2721" style-hover="border-color:#4A3D34;background:#1C1714">Explore Reeve
           <span style="font-family:'IBM Plex Mono',monospace;font-size:13px">↓</span>
         </a>
-        <a href="https://github.com/Ampplex/Reeve-Copilot" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:9px;font-size:15px;font-weight:500;color:#EFE9E3;background:#171310;padding:13px 22px;border-radius:9px;border:1px solid #2F2721" style-hover="border-color:#4A3D34;background:#1C1714">
+        <a href="https://github.com/Ampplex/Reeve-Copilot" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:8px;font-size:15px;font-weight:500;color:#A0958C;background:transparent;padding:14px 18px;border-radius:9px;border:1px solid #241E1A" style-hover="color:#EFE9E3;border-color:#3A3029;background:#14100E">
           <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.4 7.4 0 0 1 2-.27c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
-          View on GitHub</a>
+          GitHub
+        </a>
       </div>
-      <p data-reveal style="margin:22px 0 0;font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.04em;color:#8A7F76">Built with VS Code • MCP • GitHub Copilot • AWS</p>
+      <p data-reveal style="margin:20px 0 0;font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.04em;color:#8A7F76">Windows 10 / 11 (64-bit) • 290 MB • Built with VS Code, MCP & Copilot</p>
     </div>
 
     <div data-reveal style="position:relative">
@@ -472,10 +483,14 @@ nav[data-desk] a{white-space:nowrap}
  <div style="max-width:1240px;margin:0 auto;padding:clamp(72px,9vw,128px) clamp(18px,4vw,40px)">
   <h2 data-reveal style="margin:0;font-size:clamp(34px,5vw,62px);line-height:1.04;letter-spacing:-.035em;font-weight:600">Stop rebuilding context.</h2>
   <p data-reveal style="margin:20px 0 0;font-size:clamp(16px,1.6vw,19px);line-height:1.6;color:#A0958C;max-width:560px">Build with an agent that remembers what your project already knows.</p>
-  <div data-reveal style="display:flex;flex-wrap:wrap;gap:12px;margin-top:32px">
-    <a href="{{ getUrl }}" target="_blank" rel="noopener" style="font-size:15px;font-weight:500;color:#12100E;background:#E4692A;padding:14px 24px;border-radius:9px;border:1px solid #F0854B" style-hover="background:#F0854B">Get Reeve</a>
+  <div data-reveal style="display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-top:32px">
+    <a href="https://reeve-devpilot-downloads-309490998255.s3.us-west-2.amazonaws.com/Reeve-Devpilot-Setup.exe" download style="display:inline-flex;align-items:center;gap:10px;font-size:15px;font-weight:600;color:#12100E;background:#E4692A;padding:14px 26px;border-radius:9px;border:1px solid #F0854B;box-shadow:0 4px 22px rgba(228,105,42,.35);transition:background .15s ease,transform .15s ease" style-hover="background:#F0854B;transform:translateY(-1px)">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M0 2.222L6.5 1.333V7.5H0V2.222zm7.5-1.472L16 0v7.5H7.5V.75zM0 8.5h6.5v6.167L0 13.778V8.5zm7.5 0H16V16l-8.5-.75V8.5z"/></svg>
+      Download for Windows (.exe)
+    </a>
     <a href="https://github.com/Ampplex/Reeve-Copilot" target="_blank" rel="noopener" style="font-size:15px;font-weight:500;color:#EFE9E3;background:transparent;padding:14px 24px;border-radius:9px;border:1px solid #2F2721" style-hover="border-color:#4A3D34;background:#171310">View on GitHub</a>
   </div>
+  <p data-reveal style="margin:16px 0 0;font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.04em;color:#8A7F76">Version 1.0.0 for Windows 10 / 11 (64-bit) • 290 MB</p>
  </div>
 </section>
 
@@ -844,7 +859,7 @@ class Component extends DCLogic {
         ]);
 
     return {
-      getUrl: this.props.getReeveUrl || (GH + '/releases'),
+      getUrl: this.props.getReeveUrl || 'https://reeve-devpilot-downloads-309490998255.s3.us-west-2.amazonaws.com/Reeve-Devpilot-Setup.exe',
       navBg: st.scrolled ? 'rgba(14,12,11,.82)' : 'rgba(14,12,11,0)',
       navBorder: st.scrolled ? '#211B17' : 'transparent',
       navPad: st.scrolled ? '8px' : '14px',
