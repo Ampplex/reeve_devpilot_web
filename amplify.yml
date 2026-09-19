@@ -2,8 +2,7 @@ version: 1
 frontend:
   phases:
     build:
-      commands:
-        - cp "Reeve Devpilot.dc.html" index.html
+      commands: []
   artifacts:
     baseDirectory: /
     files:
